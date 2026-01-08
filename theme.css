@@ -32,11 +32,6 @@ body {
     transition: transform 0.3s ease;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-}
-
-/* Featured AI/ML Card */
 .aiml {
     grid-column: span 2;
     background: linear-gradient(135deg, #e17604, #555589,#2805a4);
@@ -97,3 +92,4 @@ a{
 
 .learn-more.small { padding: 8px 20px; font-size: 0.8rem; }
 .learn-more:hover { background: #0056b3; }
+
