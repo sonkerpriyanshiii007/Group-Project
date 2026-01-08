@@ -1,0 +1,99 @@
+
+
+body {
+    background-color:#121212;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 80px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Grid Layout: 1-2-2 */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+.card {
+    background: #090909;
+    border-radius: 24px;
+    padding: 40px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Featured AI/ML Card */
+.aiml {
+    grid-column: span 2;
+    background: linear-gradient(135deg, #e17604, #555589,#2805a4);
+    min-height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aiml h2 { font-size: 2.5rem; margin-bottom: 20px; }
+.aiml p { font-size: 1.1rem; color: #efe4e4; max-width: 600px; }
+
+.font h3 { font-size: 1.4rem; margin-bottom: 15px; }
+.font p { font-size: 0.95rem; color:#efe4e4; margin-bottom: 20px; }
+
+/* Sub-Cards */
+.fintech {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, #bd53b9, #4f4fa4, #826de7);
+
+}
+
+.healthcare {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, #2e722f, #84bb50, #b9bf19);
+
+}
+
+.edtech {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, #d64c40, #a57a49, #f4fa53);
+
+}
+
+.smart-city {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, #3376bc, #6565c6, #d64c40);
+
+}
+
+
+/* Buttons */
+.learn-more {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.learn-more.small { padding: 8px 20px; font-size: 0.8rem; }
+.learn-more:hover { background: #0056b3; }
