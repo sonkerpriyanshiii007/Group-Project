@@ -15,7 +15,7 @@
                 <div class="card-info">
                     <h2>Artificial Intelligence & Machine Learning</h2>
                     <p>Develop solutions that use data to make decisions. Think of automated health diagnosis, AI-driven financial advisors, or smart attendance systems using facial recognition.</p>
-                    <button class="learn-more"><a href="">LEARN MORE</a></button>
+                    <button class="learn-more"><a href="https://www.geeksforgeeks.org/artificial-intelligence/aiml-introduction/">LEARN MORE</a></button>
                 </div>
             </div>
 
@@ -53,4 +53,5 @@
         </div>
     </section>
 </body>
+
 </html>
