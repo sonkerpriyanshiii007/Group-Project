@@ -24,7 +24,7 @@
                 <p>Create decentralized applications (dApps) or 
                     secure payment gateways. Projects range from transparent voting
                 systems using Blockchain to encrypted expense trackers for data privacy.</p>
-                <button class="learn-more small"><a href="">LEARN MORE</a></button>
+                <button class="learn-more small"><a href="https://vegavid.com/blog/blockchain-security-in-fintech">LEARN MORE</a></button>
             </div>
 
             <div class="card font healthcare">
@@ -32,7 +32,7 @@
                 <p>Use technology for social good. Build apps to monitor mental health,
                      connect rural patients with doctors, or track carbon footprints
                      to create meaningful real-world prototypes.</p>
-                <button class="learn-more small"><a href="">LEARN MORE </a></button>
+                <button class="learn-more small"><a href="https://en.wikipedia.org/wiki/Sustainable_healthcare">LEARN MORE </a></button>
             </div>
 
             <div class="card font edtech">
@@ -40,7 +40,7 @@
                 <p>Innovate the classroom experience with AR/VR or AI-based 
                     peer-to-peer tutoring systems that help students master
                      difficult concepts.</p>
-                <button class="learn-more small"><a href="">LEARN MORE</a></button>
+                <button class="learn-more small"><a href="https://en.wikipedia.org/wiki/Educational_technology">LEARN MORE</a></button>
             </div>
 
             <div class="card font smart-city">
@@ -48,10 +48,11 @@
                 <p>Design systems where devices communicate to save resources, 
                     like automated street lightning or waste management sensors that
                      notify the municipality when bins are full. </p>
-                <button class="learn-more small"><a href="">LEARN MORE</a></button>
+                <button class="learn-more small"><a href="https://www.geeksforgeeks.org/blogs/applications-of-iot-in-creating-smart-cities/">LEARN MORE</a></button>
             </div>
         </div>
     </section>
 </body>
 
 </html>
+
