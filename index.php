@@ -165,8 +165,8 @@ $result = $conn->query($sql);
             <p style="font-size: 18px; color: #cbd5e1; margin: 0; font-weight: bold; text-transform: uppercase;">
                 Government Model Science College, Jabalpur
             </p>
-            <p style="font-size: 14px; color: #94a3b8; margin: 5px 0 15px 0;">
-                Organized By Department Of BCA
+            <p style="font-size: 20px; margin: 5px 0 15px 0;">
+                Organized By Department <span style="color: #06b6d4;"> Physics Department
             </p>
             <h1 style="font-size: 25px; margin:  5px 0 15px 0;  ">
                 24  <span style="color: #06b6d4;">HOURS ⌛ </span>Hackathon
@@ -417,4 +417,5 @@ $result = $conn->query($sql);
 </body>
 
 </html>
+
 
