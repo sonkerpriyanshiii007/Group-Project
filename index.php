@@ -168,7 +168,9 @@ $result = $conn->query($sql);
             <p style="font-size: 14px; color: #94a3b8; margin: 5px 0 15px 0;">
                 Organized By Department Of BCA
             </p>
-
+            <h1 style="font-size: 25px; margin:  5px 0 15px 0;  ">
+                24  <span style="color: #06b6d4;">HOURS ⌛ </span>Hackathon
+            </h1>
             <p style="font-size: 20px; color: #06b6d4; font-style: italic; margin-bottom: 5px;">
                 Where Creativity Meets Technology
             </p>
@@ -415,3 +417,4 @@ $result = $conn->query($sql);
 </body>
 
 </html>
+
