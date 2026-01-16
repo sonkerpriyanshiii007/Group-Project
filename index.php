@@ -288,30 +288,30 @@ $result = $conn->query($sql);
   <div style="width: 100%; margin: 0 auto;">
 
     <div style="border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 20px; text-align: left;">
-      <h3 style="color: #FD9B00; margin: 0 0 10px 0; font-size: 1.2rem;">1. What is HackBlitz?</h3>
+      <h3 style="color: #06b6d4; margin: 0 0 10px 0; font-size: 1.2rem;">1. What is HackBlitz?</h3>
       <p style="color: #cbd5e1; line-height: 1.6; margin: 0;">
         HackBlitz is a competitive hackathon designed to bring together innovators and developers...
       </p>
     </div>
       <div style="border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 20px;">
-      <h3 style="color: #FD9B00; margin: 0 0 10px 0; font-size: 1.2rem;">2. Who is eligible?</h3>
+      <h3 style="color: #06b6d4; margin: 0 0 10px 0; font-size: 1.2rem;">2. Who is eligible?</h3>
       <p style="color: #cbd5e1; line-height: 1.6; margin: 0;">
         It is open to students and technology enthusiasts from all disciplines. Participants may join individually or in a team.
       </p>
     </div>
 
     <div style="border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 20px;">
-      <h3 style="color: #FD9B00; margin: 0 0 10px 0; font-size: 1.2rem;">3. Is there a fee?</h3>
+      <h3 style="color: #06b6d4; margin: 0 0 10px 0; font-size: 1.2rem;">3. Is there a fee?</h3>
       <p style="color: #cbd5e1; line-height: 1.6; margin: 0;">No. HackBlitz is completely free to participate in.</p>
     </div>
 
     <div style="border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 20px;">
-      <h3 style="color: #FD9B00; margin: 0 0 10px 0; font-size: 1.2rem;">4. What is the allowed team size?</h3>
+      <h3 style="color: #06b6d4; margin: 0 0 10px 0; font-size: 1.2rem;">4. What is the allowed team size?</h3>
       <p style="color: #cbd5e1; line-height: 1.6; margin: 0;">Participants may compete individually or in teams of up to four members.</p>
     </div>
 
     <div style="border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 20px;">
-      <h3 style="color: #FD9B00; margin: 0 0 10px 0; font-size: 1.2rem;">5. Do I need coding experience?</h3>
+      <h3 style="color: #06b6d4; margin: 0 0 10px 0; font-size: 1.2rem;">5. Do I need coding experience?</h3>
       <p style="color: #cbd5e1; line-height: 1.6; margin: 0;">
         Prior experience is not mandatory. We encourage beginners, and mentorship support will be available.
       </p>
@@ -338,24 +338,24 @@ $result = $conn->query($sql);
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
         
         <div style="flex: 1; min-width: 280px; background: #1a1a1a; padding: 30px; border-radius: 15px; border: 1px solid #333;">
-            <img src="a3.png" alt="What" style="border-radius: 50%; border: 3px solid #FD9B00; height: 90px; width: 90px; object-fit: cover; margin-bottom: 15px;">
-            <h3 style="color: #FD9B00; margin-bottom: 15px;">What is it?</h3>
+            <img src="a3.png" alt="What" style="border-radius: 50%; border: 3px solid #007bff; height: 90px; width: 90px; object-fit: cover; margin-bottom: 15px;">
+            <h3 style="color: #007bff; margin-bottom: 15px;">What is it?</h3>
             <p style="color: white; font-size: 14px; line-height: 1.6; margin: 0;">
                 A time-bound innovation marathon where teams collaborate to build functional prototypes from scratch to solve real-world problems.
             </p>
         </div>
 
         <div style="flex: 1; min-width: 280px; background: #1a1a1a; padding: 30px; border-radius: 15px; border: 1px solid #333;">
-            <img src="a1.png" alt="Why" style="border-radius: 50%; border: 3px solid #FD9B00; height: 90px; width: 90px; object-fit: cover; margin-bottom: 15px;">
-            <h3 style="color: #FD9B00; margin-bottom: 15px;">How to Start?</h3>
+            <img src="a1.png" alt="Why" style="border-radius: 50%; border: 3px solid #007bff; height: 90px; width: 90px; object-fit: cover; margin-bottom: 15px;">
+            <h3 style="color: #007bff; margin-bottom: 15px;">How to Start?</h3>
             <p style="color: white; font-size: 14px; line-height: 1.6; margin: 0;">
                 Register, form a team, and brainstorm a solution once the theme is revealed. Build your prototype and pitch to industry experts.
             </p>
         </div>
 
         <div style="flex: 1; min-width: 280px; background: #1a1a1a; padding: 30px; border-radius: 15px; border: 1px solid #333;">
-            <img src="a2.png" alt="How" style="border-radius: 50%; border: 3px solid #FD9B00; height: 90px; width: 90px; object-fit: cover; margin-bottom: 15px;">
-            <h3 style="color: #FD9B00; margin-bottom: 15px;">Why Join?</h3>
+            <img src="a2.png" alt="How" style="border-radius: 50%; border: 3px solid #007bff; height: 90px; width: 90px; object-fit: cover; margin-bottom: 15px;">
+            <h3 style="color: #007bff; margin-bottom: 15px;">Why Join?</h3>
             <p style="color: white; font-size: 14px; line-height: 1.6; margin: 0;">
                 Bridge the gap between theory and reality. Master new tech stacks, network with recruiters, and build under pressure.
             </p>
@@ -417,5 +417,4 @@ $result = $conn->query($sql);
 </body>
 
 </html>
-
 
