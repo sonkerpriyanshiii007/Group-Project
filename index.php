@@ -66,6 +66,10 @@ nav {
     flex-direction: column;
     cursor: pointer;
 }
+.card:hover{
+            transform: scale(1.05) translateY(-5px); /* Scales up slightly and moves up */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); 
+        }
 
 .card:hover{
             transform: scale(1.05) translateY(-5px); /* Scales up slightly and moves up */
