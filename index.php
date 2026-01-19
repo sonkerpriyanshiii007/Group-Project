@@ -66,7 +66,10 @@ nav {
     flex-direction: column;
     cursor: pointer;
 }
-
+ .card:hover{
+            transform: scale(1.05) translateY(-5px); /* Scales up slightly and moves up */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); 
+        }
 @media (max-width: 768px) {
     .menu-toggle {
         display: flex; 
@@ -202,6 +205,28 @@ $result = $conn->query($sql);
 
    <section id="about" style="background-color:#0f172a; text-align: center;">
     
+    <div class="card" style="background: #1a1a1a; border: 2px solid #3b82f6; border-radius: 15px; padding: 30px; width: 100%; box-sizing: border-box;">
+      <div style="font-size: 50px;">🥇</div>
+      <h3 style="margin: 10px 0; color: #3b82f6; text-transform: uppercase;">1st Prize</h3>
+      <p style="font-size: clamp(30px, 5vw, 40px); font-weight: bold; margin: 10px 0;">₹1,00,000</p>
+      <p style="color: #94a3b8; font-size: 14px;">Winner Trophy + Internship</p>
+    </div>
+
+    <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+      
+      <div  class="card" style="flex: 1; min-width: 280px; background: #1a1a1a; border: 1px solid #333; border-radius: 15px; padding: 30px;">
+        <div style="font-size: 40px;">🥈</div>
+        <h3 style="margin: 10px 0; color: #ccc;">2nd Prize</h3>
+        <p style="font-size: 32px; font-weight: bold; margin: 10px 0;">₹60,000</p>
+        <p style="color: #888; font-size: 14px;">Silver Medal + Swag Kit</p>
+      </div>
+
+      <div  class="card" style="flex: 1; min-width: 280px; background: #1a1a1a; border: 1px solid #333; border-radius: 15px; padding: 30px;">
+        <div style="font-size: 40px;">🥉</div>
+        <h3 style="margin: 10px 0; color: #cd7f32;">3rd Prize</h3>
+        <p style="font-size: 32px; font-weight: bold; margin: 10px 0;">₹40,000</p>
+        <p style="color: #888; font-size: 14px;">Bronze Medal + Vouchers</p>
+      </div>
     <div style="max-width: 1000px; margin: 0 auto 40px;">
         <h2 style="color: white; font-size: 35px; text-transform: uppercase; letter-spacing: 2px; margin: 0 0 10px;">
             About Hack<span style="color: #06b6d4;">BLITZ</span>
@@ -262,7 +287,7 @@ $result = $conn->query($sql);
             <div style="flex: 2; min-width: 280px;">
                 <h2 style="font-size: 2rem; color: white; margin-bottom: 15px;">Artificial Intelligence & Machine Learning</h2>
                 <p style="font-size: 1.1rem; color: #efe4e4; line-height: 1.6; margin-bottom: 25px;">Develop solutions that use data to make decisions. Think of automated health diagnosis, AI-driven financial advisors, or smart attendance systems.</p>
-                <a href="#" style="display: inline-block; background: #007bff; color: white; text-decoration: none; padding: 12px 30px; border-radius: 50px; font-weight: bold;">LEARN MORE</a>
+                <a href="#" class="card"  style="display: inline-block; background: #007bff; color: white; text-decoration: none; padding: 12px 30px; border-radius: 50px; font-weight: bold;">LEARN MORE</a>
             </div>
             <div style="flex: 1; font-size: 70px; text-align: center;">🤖</div>
         </div>
@@ -271,12 +296,12 @@ $result = $conn->query($sql);
             <div style="flex: 1; min-width: 300px; background: linear-gradient(135deg, #bd53b9, #4f4fa4, #826de7); border-radius: 24px; padding: 35px; box-sizing: border-box; text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
                 <h3 style="color: white; font-size: 1.4rem; margin-bottom: 15px;">Fintech & Blockchain Security</h3>
                 <p style="color: #efe4e4; font-size: 0.95rem; line-height: 1.6; margin-bottom: 25px;">Create decentralized applications (dApps) or secure payment gateways.</p>
-                <a href="#" style="display: inline-block; background: #007bff; color: white; text-decoration: none; padding: 10px 25px; border-radius: 50px; font-weight: bold; align-self: center;">LEARN MORE</a>
+                <a href="#" class="card" style="display: inline-block; background: #007bff; color: white; text-decoration: none; padding: 10px 25px; border-radius: 50px; font-weight: bold; align-self: center;">LEARN MORE</a>
             </div>
             <div style="flex: 1; min-width: 300px; background: linear-gradient(135deg, #2e722f, #84bb50, #b9bf19); border-radius: 24px; padding: 35px; box-sizing: border-box; text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
                 <h3 style="color: white; font-size: 1.4rem; margin-bottom: 15px;">Healthcare & Sustainability</h3>
                 <p style="color: #efe4e4; font-size: 0.95rem; line-height: 1.6; margin-bottom: 25px;">Use technology for social good. Build apps to monitor health or track carbon footprints.</p>
-                <a href="#" style="display: inline-block; background: #007bff; color: white; text-decoration: none; padding: 10px 25px; border-radius: 50px; font-weight: bold; align-self: center;">LEARN MORE</a>
+                <a href="#" class="card" style="display: inline-block; background: #007bff; color: white; text-decoration: none; padding: 10px 25px; border-radius: 50px; font-weight: bold; align-self: center;">LEARN MORE</a>
             </div>
         </div>
 
@@ -284,12 +309,12 @@ $result = $conn->query($sql);
             <div style="flex: 1; min-width: 300px; background: linear-gradient(135deg, #d64c40, #a57a49, #f4fa53); border-radius: 24px; padding: 35px; box-sizing: border-box; text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
                 <h3 style="color: white; font-size: 1.4rem; margin-bottom: 15px;">EdTech: Future of Learning</h3>
                 <p style="color: #efe4e4; font-size: 0.95rem; line-height: 1.6; margin-bottom: 25px;">Innovate the classroom experience with AR/VR or AI-based tutoring systems.</p>
-                <a href="#" style="display: inline-block; background: #007bff; color: white; text-decoration: none; padding: 10px 25px; border-radius: 50px; font-weight: bold; align-self: center;">LEARN MORE</a>
+                <a href="#" class="card" style="display: inline-block; background: #007bff; color: white; text-decoration: none; padding: 10px 25px; border-radius: 50px; font-weight: bold; align-self: center;">LEARN MORE</a>
             </div>
             <div style="flex: 1; min-width: 300px; background: linear-gradient(135deg, #3376bc, #6565c6, #d64c40); border-radius: 24px; padding: 35px; box-sizing: border-box; text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
                 <h3 style="color: white; font-size: 1.4rem; margin-bottom: 15px;">Smart City & IoT</h3>
                 <p style="color: #efe4e4; font-size: 0.95rem; line-height: 1.6; margin-bottom: 25px;">Design systems where devices communicate to save resources, like smart lighting.</p>
-                <a href="#" style="display: inline-block; background: #007bff; color: white; text-decoration: none; padding: 10px 25px; border-radius: 50px; font-weight: bold; align-self: center;">LEARN MORE</a>
+                <a href="#" class="card" style="display: inline-block; background: #007bff; color: white; text-decoration: none; padding: 10px 25px; border-radius: 50px; font-weight: bold; align-self: center;">LEARN MORE</a>
             </div>
         </div>
 
@@ -426,3 +451,4 @@ $result = $conn->query($sql);
 </body>
 
 </html>
+
