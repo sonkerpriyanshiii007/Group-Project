@@ -181,6 +181,9 @@ $result = $conn->query($sql);
             <div style="margin-top: 25px; background-color: #1e293b; padding: 20px; border-radius: 12px; border: 1px solid #334155; display: inline-block;">
                 <p style="margin: 0; font-weight: bold; color: #06b6d4;">📅 15 JANUARY 2026 | 10:00 AM</p>
                 <p style="margin: 8px 0 0 0; color: #cbd5e1;">📍 VENUE: Model Science College</p>
+                  <a href="register.php" style="display: inline-block; margin-top: 20px; background-color: #06b6d4; color: white; padding: 15px 40px; border-radius: 8px; font-weight: bold; text-decoration: none; text-transform: uppercase; transition: 0.3s;" class="card">
+    Register Now 🚀
+</a>
             </div>
         </div>
 <div style="flex: 1; min-width: 300px; display: flex; justify-content: center;">
@@ -423,5 +426,6 @@ $result = $conn->query($sql);
 </body>
 
 </html>
+
 
 
