@@ -202,7 +202,30 @@ $result = $conn->query($sql);
   
 </div>
 </section>
+<section id="about" style="background-color:#0f172a; text-align: center;">
+    
+    <div style="max-width: 1000px; margin: 0 auto 40px;">
+        <h2 style="color: white; font-size: 35px; text-transform: uppercase; letter-spacing: 2px; margin: 0 0 10px;">
+            About Hack<span style="color: #06b6d4;">BLITZ</span>
+        </h2>
+        <p style="color: #49b1ee; font-weight: bold; font-size: 20px; font-family: monospace; margin-bottom: 20px;">
+            &lt; Where Curiosity Meets Code /&gt;
+        </p>
+        <p style="color: #cccccc; font-size: 18px; line-height: 1.8; margin: 0;">
+            Welcome to HackBlitz, an inclusive event designed for students of all skill levels. Beyond the trophies, 
+            our mission is to foster a culture of learning through hands-on workshops, mentorship, and collaborative hacking.
+        </p>
+    </div>
 
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+        
+        <div style="flex: 1; min-width: 280px; background: #1a1a1a; padding: 30px; border-radius: 15px; border: 1px solid #333;">
+            <img src="a3.png" alt="What" style="border-radius: 50%; border: 3px solid #007bff; height: 90px; width: 90px; object-fit: cover; margin-bottom: 15px;">
+            <h3 style="color: #007bff; margin-bottom: 15px;">What is it?</h3>
+            <p style="color: white; font-size: 14px; line-height: 1.6; margin: 0;">
+                A time-bound innovation marathon where teams collaborate to build functional prototypes from scratch to solve real-world problems.
+            </p>
+        </div>
    <section id="about" style="background-color:#0f172a; text-align: center;">
     
     <div class="card" style="background: #1a1a1a; border: 2px solid #3b82f6; border-radius: 15px; padding: 30px; width: 100%; box-sizing: border-box;">
@@ -249,6 +272,7 @@ $result = $conn->query($sql);
                 A time-bound innovation marathon where teams collaborate to build functional prototypes from scratch to solve real-world problems.
             </p>
         </div>
+
 
         <div style="flex: 1; min-width: 280px; background: #1a1a1a; padding: 30px; border-radius: 15px; border: 1px solid #333;">
             <img src="a1.png" alt="Why" style="border-radius: 50%; border: 3px solid #007bff; height: 90px; width: 90px; object-fit: cover; margin-bottom: 15px;">
@@ -320,7 +344,6 @@ $result = $conn->query($sql);
 
     </div>
 </section>
-
 <section id="prizes" style="background-color: #0f172a; color: white; padding: 60px 20px; min-height: 100vh; text-align: center;">
   
   <h2 style="font-size: 32px; margin-bottom: 40px; text-transform: uppercase; font-family: sans-serif;">
@@ -398,6 +421,7 @@ $result = $conn->query($sql);
     </div>
 </section>
 
+                    
 <section id="contactus" style="background-color: #001233; color: white;text-align: center; font-family: sans-serif;">
     
     <div style="max-width: 800px; margin: 0 auto;">
@@ -451,4 +475,5 @@ $result = $conn->query($sql);
 </body>
 
 </html>
+
 
