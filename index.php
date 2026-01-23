@@ -166,7 +166,7 @@ $result = $conn->query($sql);
                 Government Model Science College, Jabalpur
             </p>
             <p style="font-size: 20px; margin: 5px 0 15px 0;">
-                Organized By Department <span style="color: #06b6d4;"> Physics Department
+                Organized By  <span style="color: #06b6d4;"> Physics Department
             </p>
             <h1 style="font-size: 25px; margin:  5px 0 15px 0;  ">
                 24  <span style="color: #06b6d4;">HOURS ⌛ </span>Hackathon
@@ -177,6 +177,11 @@ $result = $conn->query($sql);
             <p style="font-size: 24px; font-weight: bold; color: #cbd5e1; letter-spacing: 2px; text-transform: uppercase;">
                 Unleash Your Innovation
             </p>
+
+            <p style="color: #cbd5e1; font-size: 1.1rem; margin-top: 20px; line-height: 1.6;"> 
+    Don't just participate, prove your worth. <br>
+    <span style="color: #06b6d4; font-weight: bold;">Choose a theme, clear the assessment, and unlock your exclusive HackBlitz certificate. 🎓" ⚡</span>
+</p>
 
             <div style="margin-top: 25px; background-color: #1e293b; padding: 20px; border-radius: 12px; border: 1px solid #334155; display: inline-block;">
                 <p style="margin: 0; font-weight: bold; color: #06b6d4;">📅 15 JANUARY 2026 | 10:00 AM</p>
@@ -238,7 +243,7 @@ $result = $conn->query($sql);
         <h2 style="color: white; font-size: 35px; text-transform: uppercase; letter-spacing: 2px; margin: 0;">
             Hackathon <span style="color: #06b6d4;">Themes</span>
         </h2>
-        <p style="color: #49b1ee; font-weight: bold; margin-top: 10px; font-family: 'Courier New', monospace;">&lt; Choose your track /&gt;</p>
+        <p style="color: #49b1ee; font-weight: bold; margin-top: 10px;text-align:center; font-family: 'Courier New', monospace;">&lt; Choose your track /&gt;</p>
     </div>
 
     <div style="max-width: 1000px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px;">
@@ -278,6 +283,17 @@ $result = $conn->query($sql);
             </div>
         </div>
 
+        <div style="text-align: center;">
+        <a href="quiz.php" >
+        
+    <button type="submit" class="btn-initiate" style=" padding: 12px; margin-top: 25px; 
+    background-color: #003813; color: white; border: none; border-radius: 8px;
+     font-weight: bold; cursor: pointer; text-align:center;
+     font-size: 26px; text-transform: uppercase;">
+        Initiate Assessment ⚡
+    </button>
+   </a>
+    </div>
     </div>
 </section>
 <section id="faq" style="background-color: #0f172a; ">
@@ -288,30 +304,30 @@ $result = $conn->query($sql);
   <div style="width: 100%; margin: 0 auto;">
 
     <div style="border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 20px; text-align: left;">
-      <h3 style="color: #06b6d4; margin: 0 0 10px 0; font-size: 1.2rem;">1. What is HackBlitz?</h3>
+      <h3 style="color: #007bff; margin: 0 0 10px 0; font-size: 1.2rem;">1. What is HackBlitz?</h3>
       <p style="color: #cbd5e1; line-height: 1.6; margin: 0;">
         HackBlitz is a competitive hackathon designed to bring together innovators and developers...
       </p>
     </div>
       <div style="border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 20px;">
-      <h3 style="color: #06b6d4; margin: 0 0 10px 0; font-size: 1.2rem;">2. Who is eligible?</h3>
+      <h3 style="color: #007bff; margin: 0 0 10px 0; font-size: 1.2rem;">2. Who is eligible?</h3>
       <p style="color: #cbd5e1; line-height: 1.6; margin: 0;">
         It is open to students and technology enthusiasts from all disciplines. Participants may join individually or in a team.
       </p>
     </div>
 
     <div style="border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 20px;">
-      <h3 style="color: #06b6d4; margin: 0 0 10px 0; font-size: 1.2rem;">3. Is there a fee?</h3>
+      <h3 style="color: #007bff; margin: 0 0 10px 0; font-size: 1.2rem;">3. Is there a fee?</h3>
       <p style="color: #cbd5e1; line-height: 1.6; margin: 0;">No. HackBlitz is completely free to participate in.</p>
     </div>
 
     <div style="border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 20px;">
-      <h3 style="color: #06b6d4; margin: 0 0 10px 0; font-size: 1.2rem;">4. What is the allowed team size?</h3>
+      <h3 style="color: #007bff; margin: 0 0 10px 0; font-size: 1.2rem;">4. What is the allowed team size?</h3>
       <p style="color: #cbd5e1; line-height: 1.6; margin: 0;">Participants may compete individually or in teams of up to four members.</p>
     </div>
 
     <div style="border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 20px;">
-      <h3 style="color: #06b6d4; margin: 0 0 10px 0; font-size: 1.2rem;">5. Do I need coding experience?</h3>
+      <h3 style="color: #007bff; margin: 0 0 10px 0; font-size: 1.2rem;">5. Do I need coding experience?</h3>
       <p style="color: #cbd5e1; line-height: 1.6; margin: 0;">
         Prior experience is not mandatory. We encourage beginners, and mentorship support will be available.
       </p>
