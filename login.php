@@ -33,8 +33,9 @@
             </button>
         </form>
 <div style="margin-top: 25px; font-size: 13px; color: #94a3b8;">
-            Don't have an account? <a href="login1.php" style="color: #06b6d4; text-decoration: none;">Register here</a>
+            Don't have an account? <a href="register.php" style="color: #06b6d4; text-decoration: none;">Register here</a>
         </div>
 </body>
 
 </html>
+
